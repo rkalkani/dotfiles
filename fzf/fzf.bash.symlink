@@ -4,18 +4,18 @@ if [[ ! -d "$HOME/.fzf" ]]; then
 fi
 
 # Setup fzf
-# ---------/
+# ---------
 if [[ ! "$PATH" == *:$HOME/.fzf/bin* ]]; then
     export PATH="${PATH:+${PATH}:}$HOME/.fzf/bin"
 fi
 
 # Auto-completion
 # ---------------
-[[ $- == *i* ]] && source "$HOME/.fzf/shell/completion.zsh" 2>/dev/null
+[[ $- == *i* ]] && source "$HOME/.fzf/shell/completion.bash" 2>/dev/null
 
 # Key bindings
 # ------------
-source "$HOME/.fzf/shell/key-bindings.zsh"
+source "$HOME/.fzf/shell/key-bindings.bash"
 
 export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git'
 export FZF_ALT_C_COMMAND='fd -t d -d 10 --follow --exclude .git'

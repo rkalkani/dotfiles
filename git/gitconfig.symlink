@@ -4,6 +4,7 @@
 [hub]
         protocol = https
 [alias]
+        a = add . -p
         co = checkout
         promote = !$ZSHDOT/bin/git-promote
         wtf     = !$ZSHDOT/bin/git-wtf

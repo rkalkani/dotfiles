@@ -56,10 +56,10 @@ directory_name() {
 }
 
 battery_status() {
-  if test ! "$(uname)" = "Darwin"
-  then
-    exit 0
-  fi
+  # if test ! "$(uname)" = "Darwin"
+  # then
+  #   # echo "not on mac"
+  # fi
 
   if [[ $(sysctl -n hw.model) == *"Book"* ]]
   then
