@@ -9,5 +9,5 @@ fi
 
 if test $(which npm); then
   npm i -g npm@latest
-  npm install -g prettier eslint yarn zx serve pnpm npm-check-updates tldr watch @jsdevtools/version-bump-prompt
+  npm install -g prettier eslint yarn zx serve pnpm npm-check-updates tldr watch @jsdevtools/version-bump-prompt @devcontainers/cli
 fi

@@ -20,6 +20,7 @@ elif test "$(expr substr $(uname -s) 1 5)" = "Linux"; then
         tree \
         iftop \
         htop \
+        rsync \
         jq
 fi
 
