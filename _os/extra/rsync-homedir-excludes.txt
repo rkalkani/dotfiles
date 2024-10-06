@@ -115,6 +115,7 @@ PycharmProjects/**/venv
 # Node Package Manager cache
 .npm
 .yarn
+.pnpm-store
 
 # Node Version Manager
 .nvm
@@ -380,6 +381,7 @@ nohup.out
 .config/Code - OSS/logs/
 .config/Code/logs/
 .config/Code/CachedData/*
+.vscode-server
 
 # VS Codium
 .config/VSCodium/CachedExtensionVSIXs
@@ -438,3 +440,14 @@ go/pkg/mod/cache
 
 # NPM packages
 node_modules
+/.bun
+.anydesk
+.cmake
+.flutter-devtools
+.pub-cache
+.synergy
+.tenderly
+.local/share
+.local/android-studio
+.tldr/cache
+.var/app
